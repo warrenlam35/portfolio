@@ -1,6 +1,6 @@
-</html><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-
+ <script src="script.js"></script> 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -11,68 +11,68 @@
 
 <body>
 
-    <ul>
-      <li>
-        <a href="#">Thailand/HK</a>
-        <a href="#">A Legacy</a>
-        <a href="#">Memento Mori</a>
-      </li>
-     </ul>
+  <ul>
+
+      <a href="#thailand-section">Thailand/HK</a>
+      <a href="#legacy-section">A Legacy</a>
+      <a href="#memento-section">Memento Mori</a>
+
+  </ul>
 
   <h1>Warren Lam</h1>
   <ul>
-    <li>
-      <h2>Thailand/Hong Kong</h2>
-      <p>Original editing, videos, pictures, and music.</p>
+      <li id="thailand-section">
+        <h2>Thailand/Hong Kong</h2>
+          <p>Original editing, videos, pictures, and music.</p>
 
-      <div style="text-align:center"> 
-        <button onclick="playPause()">Play/Pause</button> 
-        <button onclick="makeBig()">Big</button>
-        <button onclick="makeSmall()">Small</button>
-        <button onclick="makeNormal()">Normal</button>
-        <br><br>
-        <video id="video1" width="420">
-          <source src="0706-new.mp4" type="video/mp4">
-          <source src="mov_bbb.ogg" type="video/ogg">
-          Your browser does not support HTML video.
-        </video>
-      </div> 
+          <div style="text-align:center"> 
+            <button onclick="playPause()">Play/Pause</button> 
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            <br><br>
+            <video id="video1" width="420">
+              <source src="0706-new.mp4" type="video/mp4">
+              <source src="mov_bbb.ogg" type="video/ogg">
+            </video>
+          </div> 
 
-      <script> 
-      var myVideo = document.getElementById("video1"); 
+          <script> 
+          var myVideo = document.getElementById("video1"); 
 
-      function playPause() { 
-        if (myVideo.paused) 
-          myVideo.play(); 
-        else 
-          myVideo.pause(); 
-      } 
+          function playPause() { 
+            if (myVideo.paused) 
+              myVideo.play(); 
+            else 
+              myVideo.pause(); 
+          } 
 
-      function makeBig() { 
-          myVideo.width = 560; 
-      } 
+          function makeBig() { 
+              myVideo.width = 560; 
+          } 
 
-      function makeSmall() { 
-          myVideo.width = 320; 
-      } 
+          function makeSmall() { 
+              myVideo.width = 320; 
+          } 
 
-      function makeNormal() { 
-          myVideo.width = 420; 
-      } 
-      </script> 
+          function makeNormal() { 
+              myVideo.width = 420; 
+          } 
+          </script> 
 
-      </body> 
-      </html>
-      </video>
-    </li>
-    <li>
-      <h2>A Legacy</h2>
-      <p>Passing a torch.</p>
-      <img src="A_Legacy.png" width="1280" height="720" style="text-align: center">
-    </li>
+          </body> 
+          </html>
+          </video>
   </ul>
+  <ul>
+      <li id="legacy-section">
+        <h2>A Legacy</h2>
+          <p>Passing a torch.</p>
+            <img src="A_Legacy.png" width="1280" height="720">
+  </ul>
+<script src="script.js"></script>
 </body>
 
-</html>
 
-<script src="script.js"></script>
+
+</html>

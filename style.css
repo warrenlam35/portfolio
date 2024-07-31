@@ -40,3 +40,14 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+a[href^="#"]:hover { /* Selects all anchor links with href starting with "#" */
+  background-color: #99b29e; /* Example: Light gray background */
+  color: #4f4f4f; /* Example: Darker text color */
+}
+
+li:hover { /* Selects all list items (`li`) when hovered */
+  background-color: #99b29e; /* Example: Light gray background */
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.2); /* Example: Larger shadow */
+  transform: translateY(-2px); /* Optional: Slight lift effect */
+}
