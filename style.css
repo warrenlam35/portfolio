@@ -8,7 +8,7 @@ body {
 h1 {
   text-align: center;
   margin-top: 20px;
-  color: #808080;
+  color: #636363;
 }
 
 ul {
@@ -20,11 +20,11 @@ ul {
 }
 
 li {
-  background-color: #e0cccc;
+  background-color: #707070;
   margin-bottom: 10px;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgb(120, 120, 120, 0.1);
+  box-shadow: 0 2px 5px rgb(94, 94, 94, 0.1);
 }
 
 h2 {
@@ -33,7 +33,7 @@ h2 {
 }
 
 a {
-  color: #6281a3;
+  color: #575757;
   text-decoration: none;
 }
 
