@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #bdbdbd;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #808080;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  width: 80%;
+  text-align: left;
+}
+
+li {
+  background-color: #e0cccc;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(120, 120, 120, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #878787;
+}
+
+a {
+  color: #6281a3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
